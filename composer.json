@@ -1,0 +1,22 @@
+{
+    "name": "mutouren/dashboard",
+    "description": "composer dashboard php",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuqingxiang",
+            "email": "liuqingxiang@sxjicheng.com"
+        }
+    ],
+    "version" : "1.0.0",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Dashboard\\": "src/Dashboard"
+        }
+    }
+}
